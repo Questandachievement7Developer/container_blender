@@ -1,0 +1,10 @@
+## Run Blender on unified Container
+cd /
+cd noVNC
+export DISPLAY=:0
+vncserver -kill :0
+rm -rf /tmp/.X0-lock
+rm -rf /tmp/.X11-unix/X0
+vncserver :0 -SecurityTypes None
+./utils/launch.sh --vnc localhost:5900
+blender

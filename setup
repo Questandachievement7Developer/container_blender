@@ -1,0 +1,7 @@
+cd /
+if [ ! -d /noVNC ]; then
+git clone "https://github.com/novnc/noVNC"
+cd noVNC
+mv vnc_lite.html index.html
+cd /
+fi

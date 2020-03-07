@@ -1,2 +1,2 @@
-# container_blender
-Run blender anywhere with unifiedServer container or project bay container
+# container_Blender
+Allows to run Blender on Project Bay Container with portability in mind
